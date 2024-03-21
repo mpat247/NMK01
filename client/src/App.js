@@ -6,6 +6,7 @@ import Register from './pages/Register';
 const App = () => {
     return (
         <div>
+            <h1>App</h1>
             <BrowserRouter>
                 <Routes>
                     <Route path="/login" element={<Login />} />
